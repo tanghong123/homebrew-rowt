@@ -9,11 +9,6 @@ brew tap tanghong123/rowt
 brew install rowt
 ```
 
-> While the `rowt` repo is private, `brew install` needs a GitHub token with
-> access — set `HOMEBREW_GITHUB_API_TOKEN` (e.g. `export
-> HOMEBREW_GITHUB_API_TOKEN="$(gh auth token)"`). Once `rowt` is public, no
-> token is needed.
-
 Then:
 
 ```sh
